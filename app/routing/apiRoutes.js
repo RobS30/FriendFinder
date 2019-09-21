@@ -4,7 +4,7 @@ console.log(friends);
 
 // this pulls in our friend array and stores it in a variable
 var retrievedFriendsData = function(req, res) {
-  return res.json(friends.friendsDatabase);
+  return res.json(friends.friendsArray);
 };
 
 // callback function to add a freind

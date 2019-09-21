@@ -42,10 +42,10 @@ var friendsDatabase = {
     var sum = 0;
     var smallest = 50;
     var myFriend = {};
-    for (var index in this.list) {
-      var friend = this.list[index];
+    for (var index in this.friendsArray) {
+      var friend = this.friendsArray[index];
       sum = 0;
-      for (var i = 0; i < friend.scores.length; i++) {
+      for (var i = 0; i < me.scores.length; i++) {
         sum += Math.abs(me.scores[i] - friend.scores[i]);
       }
       if (sum <= smallest) {
