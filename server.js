@@ -2,7 +2,7 @@
 var express = require("express");
 var html = require("./app/routing/htmlRoutes.js");
 var api = require("./app/routing/apiRoutes.js");
-var path = require("path"); //this is built into node and does not require npm install
+var path = require("path"); 
 
 // Initialize Express
 var app = express();
